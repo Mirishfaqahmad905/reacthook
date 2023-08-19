@@ -1,0 +1,35 @@
+/* GitHubHook.css */
+
+.card {
+     background-color: blueviolet;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+   .container{
+     text-align: center;
+   }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+   .card img {
+     width: 400px;
+   }
+   .row{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+   }
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+     text-align: center;
+      padding: 23px;;
+    margin-top: 1rem;
+  }
+  
